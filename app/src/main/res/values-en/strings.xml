@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Culinary Assistant</string>
+
+    <string name="select_language">Change Language:</string>
+    <string name="filter_title">What to cook?</string>
+    <string name="btn_breakfast">Breakfast</string>
+    <string name="btn_lunch">Lunch</string>
+    <string name="btn_dinner">Dinner</string>
+    <string name="welcome">Select a category</string>
+    <string name="ingredients_header">You will need:</string>
+    <string name="steps_header">Cooking steps:</string>
+
+    <string name="recipe_1_title">Fluffy French Omelette</string>
+    <string name="recipe_1_ingr">Eggs (3 pcs), milk (50 ml), butter (15 g), salt, fresh herbs (parsley or dill).</string>
+    <string name="recipe_1_steps">1. Crack eggs into a bowl, add milk and a pinch of salt.\n2. Whisk thoroughly with a fork until smooth.\n3. Heat a pan and melt the butter.\n4. Pour in the egg mixture. Cook on medium heat under a lid for about 5 minutes.\n5. Sprinkle with chopped herbs before serving.</string>
+
+    <string name="recipe_2_title">Classic Homemade Borsch</string>
+    <string name="recipe_2_ingr">Beef on the bone (500g), cabbage (300g), potatoes (3 pcs), beetroot (1 pc), carrot (1 pc), onion (1 pc), tomato paste (2 tbsp), lemon juice (1 tsp).</string>
+    <string name="recipe_2_steps">1. Boil beef broth (cook for 1.5–2 hours, removing foam).\n2. Dice potatoes and add to the broth.\n3. Grate the beetroot and sauté with lemon juice and tomato paste (to keep the red color).\n4. Make a stir-fry with onions and carrots.\n5. Add shredded cabbage to the pot, then after 10 minutes add the beetroot and stir-fry.\n6. Season with salt and let it rest for 20 minutes.</string>
+
+    <string name="recipe_3_title">Pasta Carbonara</string>
+    <string name="recipe_3_ingr">Spaghetti (200g), bacon or pancetta (100g), egg yolks (3 pcs), Parmesan cheese (50g), ground black pepper, garlic (1 clove).</string>
+    <string name="recipe_3_steps">1. Boil spaghetti in salted water until al dente.\n2. Fry garlic and bacon in a pan until golden. Remove the garlic.\n3. In a bowl, mix yolks with grated cheese and plenty of pepper.\n4. Transfer hot pasta to the pan with bacon, turn off the heat.\n5. Quickly pour in the egg mixture, stirring constantly. The heat from the pasta will create a creamy sauce.</string>
+</resources>

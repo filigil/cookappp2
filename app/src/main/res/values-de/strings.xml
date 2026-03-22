@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kulinarischer Assistent</string>
+
+    <string name="select_language">Sprache ändern:</string>
+    <string name="filter_title">Was kochen wir?</string>
+    <string name="btn_breakfast">Frühstück</string>
+    <string name="btn_lunch">Mittagessen</string>
+    <string name="btn_dinner">Abendessen</string>
+    <string name="welcome">Kategorie wählen</string>
+    <string name="ingredients_header">Sie benötigen:</string>
+    <string name="steps_header">Zubereitungsschritte:</string>
+
+    <string name="recipe_1_title">Fluffiges französisches Omelett</string>
+    <string name="recipe_1_ingr">Eier (3 Stück), Milch (50 ml), Butter (15 g), Salz, frische Kräuter.</string>
+    <string name="recipe_1_steps">1. Eier in eine Schüssel schlagen, Milch und eine Prise Salz hinzufügen.\n2. Mit einer Gabel gründlich verrühren.\n3. Eine Pfanne erhitzen und Butter schmelzen.\n4. Eimischung hineingießen. Bei mittlerer Hitze ca. 5 Minuten mit Deckel braten.\n5. Vor dem Servieren mit gehackten Kräutern bestreuen.</string>
+
+    <string name="recipe_2_title">Klassischer hausgemachter Borschtsch</string>
+    <string name="recipe_2_ingr">Rindfleisch am Knochen (500g), Kohl (300g), Kartoffeln (3 Stk), Rote Bete (1 Stk), Karotte (1 Stk), Zwiebel (1 Stk), Tomatenmark (2 EL), Zitronensaft (1 TL).</string>
+    <string name="recipe_2_steps">1. Rinderbrühe kochen (1,5–2 Stunden garen, Schaum abschöpfen).\n2. Kartoffeln würfeln und in die Brühe geben.\n3. Rote Bete reiben und mit Zitronensaft und Tomatenmark anbraten.\n4. Zwiebeln und Karotten anbraten.\n5. Kohl in den Topf geben, nach 10 Minuten Rote Bete und Anbratung hinzufügen.\n6. Salzen und 20 Minuten ziehen lassen.</string>
+
+    <string name="recipe_3_title">Pasta Carbonara</string>
+    <string name="recipe_3_ingr">Spaghetti (200g), Speck (100g), Eigelb (3 Stk), Parmesankäse (50g), schwarzer Pfeffer, Knoblauch (1 Zehe).</string>
+    <string name="recipe_3_steps">1. Spaghetti in Salzwasser al dente kochen.\n2. Knoblauch und Speck in einer Pfanne goldbraun braten. Knoblauch entfernen.\n3. Eigelb mit Käse und viel Pfeffer in einer Schüssel mischen.\n4. Heiße Pasta zum Speck in die Pfanne geben, Herd ausschalten.\n5. Eimischung schnell unterrühren, bis eine cremige Sauce entsteht.</string>
+</resources>
