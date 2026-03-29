@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="btn_speak">Озвучить рецепт</string>
     <string name="btn_reset">Сбросить фильтры</string>
     <string name="cuisine_title">Кухня:</string>
     <string name="btn_french">Французская</string>

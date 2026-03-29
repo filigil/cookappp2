@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="btn_speak">Rezept vorlesen</string>
     <string name="btn_reset">Filter zurücksetzen</string>
     <string name="cuisine_title">Küche:</string>
     <string name="btn_french">Französisch</string>

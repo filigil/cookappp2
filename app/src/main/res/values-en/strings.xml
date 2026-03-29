@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="btn_speak">Speak recipe</string>
     <string name="btn_reset">Reset filters</string>
     <string name="cuisine_title">Cuisine:</string>
     <string name="btn_french">French</string>
