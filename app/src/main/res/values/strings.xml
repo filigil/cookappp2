@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="timers_title">Таймеры</string>
+    <string name="timer1_label">Время приготовления омлета</string>
+    <string name="timer2_label">Варка спагетти</string>
+    <string name="timer3_label">Обжаривание бекона</string>
+    <string name="btn_start_pause">Старт / Пауза</string>
+    <string name="btn_reset_timer">Сброс</string>
+    <string name="btn_set_time">Задать время</string>
     <string name="btn_speak">Озвучить рецепт</string>
     <string name="btn_reset">Сбросить фильтры</string>
     <string name="cuisine_title">Кухня:</string>

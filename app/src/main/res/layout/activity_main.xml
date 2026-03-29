@@ -237,5 +237,167 @@
             android:layout_marginTop="20dp"
             android:visibility="gone" />
 
+        <!-- Таймеры -->
+        <TextView
+            android:id="@+id/tv_timers_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/timers_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:visibility="gone" />
+
+        <!-- Таймер 1: Омлет -->
+        <LinearLayout
+            android:id="@+id/timer1_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_timer1_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/timer1_label"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_timer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05:00"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:id="@+id/btn_timer1_start"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_start_pause"
+                    android:layout_marginEnd="4dp" />
+
+                <Button
+                    android:id="@+id/btn_timer1_reset"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_reset_timer" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Таймер 2: Спагетти (настраиваемый) -->
+        <LinearLayout
+            android:id="@+id/timer2_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_timer2_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/timer2_label"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_timer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:00"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:id="@+id/btn_timer2_start"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_start_pause"
+                    android:layout_marginEnd="4dp" />
+
+                <Button
+                    android:id="@+id/btn_timer2_reset"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_reset_timer" />
+
+                <Button
+                    android:id="@+id/btn_timer2_set"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_set_time" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Таймер 3: Бекон -->
+        <LinearLayout
+            android:id="@+id/timer3_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_timer3_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/timer3_label"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_timer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03:00"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:id="@+id/btn_timer3_start"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_start_pause"
+                    android:layout_marginEnd="4dp" />
+
+                <Button
+                    android:id="@+id/btn_timer3_reset"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_reset_timer" />
+            </LinearLayout>
+        </LinearLayout>
+
     </LinearLayout>
 </ScrollView>

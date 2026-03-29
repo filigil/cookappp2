@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="timers_title">Timer</string>
+    <string name="timer1_label">Omelett-Zubereitungszeit</string>
+    <string name="timer2_label">Spaghetti kochen</string>
+    <string name="timer3_label">Speck anbraten</string>
+    <string name="btn_start_pause">Start / Pause</string>
+    <string name="btn_reset_timer">Zurücksetzen</string>
+    <string name="btn_set_time">Zeit einstellen</string>
+
     <string name="btn_speak">Rezept vorlesen</string>
     <string name="btn_reset">Filter zurücksetzen</string>
     <string name="cuisine_title">Küche:</string>
