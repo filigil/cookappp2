@@ -1,4 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="btn_reset">Сбросить фильтры</string>
+    <string name="cuisine_title">Кухня:</string>
+    <string name="btn_french">Французская</string>
+    <string name="btn_russian">Русская</string>
+    <string name="btn_italian">Итальянская</string>
+    <string name="no_recipe">Для этого сочетания рецепта пока нет :(</string>
+    <string name="lang_ru">RU</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_de">DE</string>
+
     <string name="app_name">Кулинарный Помощник</string>
 
     <string name="select_language">Сменить язык:</string>

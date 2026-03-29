@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="btn_reset">Reset filters</string>
+    <string name="cuisine_title">Cuisine:</string>
+    <string name="btn_french">French</string>
+    <string name="btn_russian">Russian</string>
+    <string name="btn_italian">Italian</string>
+    <string name="no_recipe">No recipe for this combination yet :(</string>
+    <string name="lang_ru">RU</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_de">DE</string>
+
     <string name="app_name">Culinary Assistant</string>
 
     <string name="select_language">Change Language:</string>

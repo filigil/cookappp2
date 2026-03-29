@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="btn_reset">Filter zurücksetzen</string>
+    <string name="cuisine_title">Küche:</string>
+    <string name="btn_french">Französisch</string>
+    <string name="btn_russian">Russisch</string>
+    <string name="btn_italian">Italienisch</string>
+    <string name="no_recipe">Für diese Kombination gibt es noch kein Rezept :(</string>
+    <string name="lang_ru">RU</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_de">DE</string>
+
     <string name="app_name">Kulinarischer Assistent</string>
 
     <string name="select_language">Sprache ändern:</string>

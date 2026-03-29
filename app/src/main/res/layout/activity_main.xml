@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!-- Смена языка -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -22,13 +23,37 @@
             android:orientation="horizontal"
             android:layout_marginTop="8dp">
 
-            <Button android:id="@+id/btn_ru" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="RU" />
-            <Button android:id="@+id/btn_en" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="EN" />
-            <Button android:id="@+id/btn_de" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="DE" />
+            <Button
+                android:id="@+id/btn_ru"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/lang_ru"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/btn_en"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/lang_en"
+                android:layout_marginEnd="4dp"/>
+
+            <Button
+                android:id="@+id/btn_de"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/lang_de" />
         </LinearLayout>
 
-        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#CCCCCC" android:layout_marginVertical="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="16dp"/>
 
+        <!-- Тип блюда -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,13 +67,114 @@
             android:orientation="horizontal"
             android:layout_marginTop="8dp">
 
-            <Button android:id="@+id/btn_breakfast" android:textAllCaps="false" android:textSize="12sp" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="@string/btn_breakfast" />
-            <Button android:id="@+id/btn_lunch" android:textAllCaps="false" android:textSize="12sp" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="@string/btn_lunch" />
-            <Button android:id="@+id/btn_dinner" android:textAllCaps="false" android:textSize="12sp" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="@string/btn_dinner" />
+            <Button
+                android:id="@+id/btn_breakfast"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/btn_breakfast" />
+
+            <Button
+                android:id="@+id/btn_lunch"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/btn_lunch" />
+
+            <Button
+                android:id="@+id/btn_dinner"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_dinner" />
         </LinearLayout>
 
-        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#CCCCCC" android:layout_marginVertical="16dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="16dp"/>
 
+        <!-- Кухня -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cuisine_title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btn_french"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/btn_french" />
+
+            <Button
+                android:id="@+id/btn_russian"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/btn_russian" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btn_italian"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/btn_italian" />
+
+            <View android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Кнопка сброса -->
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_reset"
+            android:textAllCaps="false"
+            android:backgroundTint="#E53935" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="20dp"/>
+
+        <!-- Рецепт -->
         <TextView
             android:id="@+id/tv_recipe_title"
             android:layout_width="match_parent"
@@ -71,7 +197,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="6dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -85,7 +211,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="6dp" />
 
     </LinearLayout>
 </ScrollView>
